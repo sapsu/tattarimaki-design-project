@@ -2,7 +2,7 @@ h1 {
   color: #2150d2;
   margin-top: 50px;
   font-family: "Playfair Display", serif;
-  font-weight: bold;
+  font-style: italic;
   font-size: 80px;
   padding: 40px;
 }
@@ -20,7 +20,8 @@ h2 {
 }
 
 .avatar {
-  margin-top: 200px;
+  margin-top: 400px;
+  max-width: 200px;
 }
 
 footer a {
@@ -30,4 +31,9 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.showcase img {
+  max-width: 400px;
+  max-height: 400px;
 }
