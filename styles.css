@@ -22,3 +22,12 @@ h2 {
 .avatar {
   margin-top: 200px;
 }
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
