@@ -1,5 +1,24 @@
 h1 {
-  color: blue;
-  margin-top: 100px;
+  color: #2150d2;
+  margin-top: 50px;
   font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 80px;
+  padding: 40px;
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  padding: 50px;
+}
+
+.header {
+  background-image: url(/images/top.jpg);
+  background-color: transparent;
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.avatar {
+  margin-top: 200px;
 }
