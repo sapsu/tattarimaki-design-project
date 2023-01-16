@@ -72,9 +72,27 @@ footer a:hover {
 #about-page-h2 {
   padding-top: 150px;
 }
+.about-p {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
 .grid-images {
   max-width: 400px;
+  transition: all ease-in-out 100ms;
 }
+.grid-images:hover {
+  transform: scale(1.1);
+}
+.contact-links a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+}
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 992px) {
   .avatar {
     max-width: 100px;
@@ -94,6 +112,7 @@ footer a:hover {
     font-size: 18px;
     padding: 20px;
   }
+
   .showcase {
     margin-top: 50px;
     margin-bottom: 50px;
