@@ -39,6 +39,10 @@ p {
   max-width: 200px;
 }
 
+footer {
+  margin-top: 130px;
+}
+
 footer a {
   text-decoration: none;
   color: black;
@@ -76,6 +80,8 @@ footer a:hover {
   max-width: 600px;
   display: block;
   margin: 0 auto;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
 }
 .grid-images {
   max-width: 400px;
